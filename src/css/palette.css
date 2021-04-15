@@ -1,0 +1,39 @@
+        :root {
+          --color-1: #BEE9E8;
+          --color-2: #62B6CB;
+          --color-3: #1B4965;
+          --color-4: #CAE9FF;
+          --color-5: #5FA8D3;
+
+
+        }
+
+
+      .font-color-1{  color: var(--color-1)}
+      .font-color-2{ color: var(--color-2)}
+      .font-color-3{color: var(--color-3)}
+      .font-color-4{color: var(--color-4)}
+      .font-color-5{color: var(--color-5)}
+
+      .btn-1
+      {
+        background-color: var(--color-5);
+        color: var(--color-4);
+      }
+
+      .btn-1:hover{
+        color: var(--color-4);
+        filter: brightness(900%);
+        transition: 10s;
+      }
+
+
+
+
+
+
+      .background-color-1{background-color: var(--color-1)}
+      .background-color-2{background-color: var(--color-2)}
+      .background-color-3{background-color: var(--color-3)}
+      .background-color-4{background-color: var(--color-4)}
+      .background-color-5{background-color: var(--color-5)}
