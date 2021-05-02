@@ -1,9 +1,10 @@
 
 :root
 {
-  --font-size-1:10px;
-  --font-size-2:20px;
+  --font-size-1:90px;
+  --font-size-2:60px;
   --font-size-3:30px;
+  --font-size-4:20px;
   --font-family-1: "Comic Sans MS" ;
   --font-family-2: "Helvetica" ;
   --font-family-3: "Times New Roman" ;
@@ -11,20 +12,21 @@
 }
 
 .font-size-1{
-  font-size: var(--font-1);
+  font-size: var(--font-size-1);
 }
   .font-size-2{
-    font-size: var(--font-2);
+    font-size: var(--font-size-2);
   }
     .font-size-3{
-      font-size: var(--font-3);
+      font-size: var(--font-size-3);
     }
 
+    .font-size-4{
+      font-size: var(--font-size-4);
+    }
       .font-family-1 {font-family: var(--font-family-2)}
 
-
-
-    .font-bold
-    {
-      font-weight: var(--font-bold);
-    }
+        .font-bold
+        {
+          font-weight: var(--font-bold);
+        }

@@ -36,9 +36,14 @@
     "webpack-provide-global-plugin": "0.0.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@mdi/font": "^5.9.55",
     "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
     "gsap": "^3.6.1",
+    "jquery": "^3.6.0",
     "moment": "^2.24.0",
-    "moment-with-locales-es6": "^1.0.1"
+    "moment-with-locales-es6": "^1.0.1",
+    "popper.js": "^1.16.1"
   }
 }

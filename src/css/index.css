@@ -1,7 +1,11 @@
 @import "typography.css";
 @import "palette.css";
 @import "layout.css";
+@import "header.css";
+@import "buttons.css";
+@import "comuni.css";
 
 *{margin: 0px;}
 
-body{margin:0px}
+body{margin:0px;
+    background-color:var(--color-white);text-align: center;}

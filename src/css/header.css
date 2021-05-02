@@ -1,0 +1,58 @@
+@import "palette.css";
+
+:root{
+
+  --align-items:center;
+  --margin-value:32px;
+  --active-link-text:var(--color-2);
+  --active-link-background:var(--color-1);
+  --padding-link:4px 8px;
+  --border-radius-link: 10px;
+  --radius-item-nav-value:12px;
+}
+
+.current
+{
+  color:var(--active-link-text);
+  background-color:var(--active-link-background);
+  border-radius: var(--border-radius-link);
+  padding: var(--padding-link);
+}
+
+.navbar{justify-content: center;}
+
+.navbar-nav{align-items: var(--align-items);
+justify-content: center;
+}
+
+.navbar-brand{align-items: var(--align-items);
+              float: left;}
+
+.margin-1{margin-left: var(--margin-value);
+         margin-right: var(--margin-value);}
+
+.radius-item
+{
+  border-radius: var(--radius-item-nav-value);
+}
+.padding-link
+{
+  padding: var(--padding-link)
+}
+
+.border-radius
+{
+  border-radius:  var(--border-radius-link)
+}
+
+.position-absolute{
+  left:16px;
+  top:16px;
+  position: absolute;
+}
+.selected-page{
+  color:var(--active-link-text);
+  background-color:var(--active-link-background);
+  border-radius: var(--border-radius-link);
+  padding: var(--padding-link);
+}

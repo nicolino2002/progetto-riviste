@@ -12,11 +12,11 @@ try {
 }
 
 const settings = {
-  entryPoints: require('./entry_points.js'),
-  outputPath: path.resolve(__dirname, 'dist/'),
-  publicPath: '/static/',
-  aliases: require('./aliases.js'),
-  bundles: {
+    entryPoints: require('./entry_points.js'),
+    outputPath: path.resolve(__dirname, 'dist/'),
+    publicPath: '/static/',
+    aliases: require('./aliases.js'),
+    bundles: {
     jsOutput: 'js/[name].js',
     cssOutput: 'css/[name].css'
   }
